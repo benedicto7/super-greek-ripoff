@@ -1,0 +1,20 @@
+[gd_scene load_steps=2 format=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 2914.79, 10 )
+
+[node name="Yikes" type="RigidBody2D"]
+
+[node name="bikes" type="Area2D" parent="."]
+scale = Vector2( 0.807, 0.882 )
+collision_layer = 2
+collision_mask = 2
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="bikes"]
+position = Vector2( 2904.79, 0 )
+scale = Vector2( 4.446, 1.261 )
+z_as_relative = false
+shape = SubResource( 1 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource( 1 )
