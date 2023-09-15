@@ -25,8 +25,3 @@ Syngchan Min - Programming, Music, and Main Menu Art
 As such, it is janky, barely runs on poorly optimized code and most likely contains a thousand different bugs.
 
 We also have been up all night and we are very tired and so we must now go to sleep, good bye.
-
-
-
-
-
